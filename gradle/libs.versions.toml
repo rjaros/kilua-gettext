@@ -1,0 +1,14 @@
+[versions]
+kilua-gettext = "0.0.1"
+kotlin = "1.9.23"
+dokka = "1.9.20"
+nmcp = "0.0.7"
+detekt = "1.23.6"
+
+[libraries]
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+nmcp = { id = "com.gradleup.nmcp", version.ref = "nmcp" }

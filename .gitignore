@@ -1,0 +1,7 @@
+.gradle
+.idea
+.kotlin
+build
+
+/upload.sh
+/build-mvnlocal.sh
