@@ -5,6 +5,7 @@ The library has been modified to work with Kotlin/JS and Kotlin/WasmJs targets i
 is tightly coupled with Okio library, providing no real support for the browsers.
 
 The main goal of this fork is to provide a simple and efficient way to use Gettext translations in Kotlin/JS and Kotlin/WasmJs web applications.
+Specifically, this library is used internally by the [Kilua web framework](https://github.com/rjaros/kilua).
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/dev.kilua/kilua-gettext/badge.svg)](https://maven-badges.herokuapp.com/maven-central/dev.kilua/kilua-gettext)
 ![license](https://img.shields.io/github/license/kropp/kotlinx-gettext)
