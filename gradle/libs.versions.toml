@@ -1,6 +1,6 @@
 [versions]
 kilua-gettext = "0.0.1"
-kotlin = "1.9.23"
+kotlin = "2.0.0-RC1"
 dokka = "1.9.20"
 nmcp = "0.0.7"
 
