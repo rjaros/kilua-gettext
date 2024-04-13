@@ -1,7 +1,6 @@
 plugins {
     kotlin("multiplatform") apply false
     `kotlin-dsl` apply false
-    alias(libs.plugins.detekt) apply false
     alias(libs.plugins.dokka)
     alias(libs.plugins.nmcp)
     id("maven-publish")
